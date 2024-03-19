@@ -1,0 +1,35 @@
+
+
+img {
+    width: auto;
+}
+
+
+.card {
+    background: none;
+    align-content: center;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+}
+
+.card p {
+    padding: 5px;
+    text-align: center;
+
+}
+
+.card img {
+    max-height: 170px;
+}
+
+
+.card li {
+    background: none;
+    text-align: center;
+
+    
+}

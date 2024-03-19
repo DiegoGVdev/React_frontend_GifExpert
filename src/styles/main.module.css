@@ -1,0 +1,39 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+    color: rgb(231, 231, 231);
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #2c2c2c;
+}
+
+
+hr {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:none;
+}
+
+.title {
+    background: none;
+    padding: 5px;
+    margin-bottom: 10px;
+}
