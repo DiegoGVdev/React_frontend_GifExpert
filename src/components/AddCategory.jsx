@@ -5,15 +5,18 @@ import styles from '../styles/AddCategory.module.css'
 
 
 export const AddCategory = ({ setCategories }) => {
+
+  const valueDefault  =  "Add Category"
   
-  const [inputValue, setInputValue] = useState("Hola Mundo");
+  
+  const [inputValue, setInputValue] = useState(valueDefault);
 
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
   };
 
   const handleCleanerClick = () => {
-    if (inputValue === "Hola Mundo") {
+    if (inputValue === valueDefault) {
       setInputValue("");
     }
   };
